@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.computergraphicsproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".zoomout"></activity>
+        <activity android:name=".zoomin" />
+        <activity android:name=".together" />
+        <activity android:name=".sideup" />
+        <activity android:name=".sidedown" />
+        <activity android:name=".rotate" />
+        <activity android:name=".move" />
+        <activity android:name=".bounceanimation" />
+        <activity android:name=".imageanimation" />
+        <activity android:name=".crossfade" />
+        <activity android:name=".Blink" />
+        <activity android:name=".fadeout" />
+        <activity android:name=".fadein" />
+        <activity android:name=".textanimation" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

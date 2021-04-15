@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".textanimation"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="40"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Animation"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+
+            ></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:orientation="vertical"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                >
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="FADE IN"
+                    android:id="@+id/fadein"
+                    android:layout_margin="20dp"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp"
+                    android:background="@android:color/transparent"
+                    ></Button>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Fade out"
+                    android:id="@+id/fadeout"
+                    android:layout_margin="20dp"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp"
+                    android:background="@android:color/transparent"
+                    ></Button>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:background="@android:color/transparent"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Blink"
+                    android:id="@+id/blink"
+                    android:layout_margin="20dp"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp"
+                    android:background="@android:color/transparent"
+                    ></Button>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="cross fade"
+                    android:id="@+id/crossfade"
+                    android:layout_margin="20dp"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp"
+                    android:background="@android:color/transparent"
+                    ></Button>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
